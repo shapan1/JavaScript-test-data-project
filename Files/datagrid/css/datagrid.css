@@ -1,0 +1,47 @@
+
+table, td, th ,tr{
+    border: 1px solid rgb(184, 204, 228);
+    border-collapse: collapse;
+    padding : 0.5em;
+}
+thead a:link{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+thead a:visited{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+thead a:hover{
+	color: blue;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+caption a:link{
+	color: blue;
+	text-decoration: none;
+}
+caption a:visited{
+	color: blue;
+	text-decoration: none;
+}
+caption a:hover{
+	color: none!important
+}
+
+
+thead td{
+	background: linear-gradient(180deg, rgb(255, 255, 255), rgb(180, 180, 180));
+}
+table tr th {
+    color: rgb(255, 255, 255);
+}
+tr:nth-child(odd) {
+    background: rgb(197, 217, 241)
+}
+tr:nth-child(even) {
+    background: rgb(255, 255, 255)
+}
